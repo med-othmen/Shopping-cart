@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <link rel="stylesheet" href="style-shop.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark ">
+    <a class="navbar" href="shopping.html">
+          <img style="width: 150px;" src="img/logo-mycar.png" alt="MY-CAR">
+        </a>
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Cataloge</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mark</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline float-right my-2 my-lg-0">
+       
+        <button style="margin-right: 30px"  type="button" class="btn btn-primary my-sm-4" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span >)</button><button  class="clear-cart btn btn-danger">Clear Cart</button></div>
+      </form>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+  <div style="margin-top: 0;" class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+    <!-- Overlay -->
+    <div class="overlay"></div>
+  
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#bs-carousel" data-slide-to="1"></li>
+      <li data-target="#bs-carousel" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item slides active">
+        <div class="slide-1"></div>
+        <div class="hero">
+          <hgroup>
+              <h1><strong> My-CAR</strong> WEB SHOP</h1>        
+              <h3>Give your car the look it deserves and the performance it needs!</h3>
+          </hgroup>
+        <a href="#bmw">  <button class="btn btn-hero btn-lg" role="button">See all our Offers</button></a>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-2"></div>
+        <div class="hero">        
+          <hgroup>
+              <h1>We are smart</h1>        
+              <h3>Get your own style car with our team</h3>
+          </hgroup>       
+          <a href="#mercedes">  <button class="btn btn-hero btn-lg" role="button">Search by Car</button> </a>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-3"></div>
+        <div class="hero">        
+          <hgroup>
+              <h1>Tuninng is Dream</h1>        
+              <h3>Improve your car’s performance with our high quality tuning parts</h3>
+          </hgroup>
+          <a href="#vw">    <button class="btn btn-hero btn-lg" role="button">See all our Offers</button> </a>
+
+        </div>
+      </div>
+    </div> 
+  </div>
+
+
+
+
+
+<div id="bmw" class="container acc-bmw">
+  <div class="row">
+          <div class="col">
+                  <div class="card">
+                  
+                  <img class="card-img-top" src="img/acc-bmw/acc1.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title">HOUSSE DE PROTECTION EXTÉRIEURE</h4>
+                      <p class="card-text">Price: $1350</p>
+                      <a href="#" data-name="HOUSSE-DE-PROTECTION-EXTÉRIEURE" data-price="1350" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+                  <div class="card" >
+                  <img class="card-img-top" src="img/acc-bmw/acc2.jpg" alt="Card image cap">
+                  <div class="card-block">
+                  <h4 class="card-title">CALENDER AVANT BMW X3 TuNiNg</h4>
+                  <p class="card-text">Price: $1500</p>
+                  <a href="#" data-name="CALENDER-AVANT-X3" data-price="1500" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+          <div class="col">
+              <div class="card" >
+              <img class="card-img-top" src="img/acc-bmw/acc3.jpg" alt="Card image cap">
+              <div class="card-block">
+              <h4 class="card-title">FEUX ARRIÈRE BLACK LINE BMW M PERFORMANCE</h4>
+              <p class="card-text">Price: $2125</p>
+              <a href="#" data-name="FEUX-ARRIÈRE-BLACK" data-price="2125" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div id="mercedes" class="container acc-mercedes">
+  <div class="row">
+          <div class="col">
+                  <div class="card">
+                  
+                  <img class="card-img-top" src="img/acc-mercedes/acc3.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title">Port-pagague</h4>
+                      <p class="card-text">Price: $350</p>
+                      <a href="#" data-name="Port-pagague" data-price="350" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+                  <div class="card" >
+                  <img class="card-img-top" src="img/acc-mercedes/acc2.jpg" alt="Card image cap">
+                  <div class="card-block">
+                  <h4 class="card-title">Jent </h4>
+                  <p class="card-text">Price: $1500</p>
+                  <a href="#" data-name="Jent" data-price="1500" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+          <div class="col">
+              <div class="card" >
+              <img class="card-img-top" src="img/acc-mercedes/acc1.jpg" alt="Card image cap">
+              <div class="card-block">
+              <h4 class="card-title">Déflecteur arrière Classe E </h4>
+              <p class="card-text">Price: $125</p>
+              <a href="#" data-name="Déflecteur-arrière-Classe" data-price="125" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div id="vw" class="container acc-vw">
+  <div class="row">
+          <div class="col">
+                  <div class="card">
+                  
+                  <img class="card-img-top" src="img/acc-vw/acc1.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title">Bouchons De Valve</h4>
+                      <p class="card-text">Price: $35</p>
+                      <a href="#" data-name="Bouchons-De-Valve" data-price="35" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+                  <div class="card" >
+                  <img class="card-img-top" src="img/acc-vw/acc2jpg" alt="Card image cap">
+                  <div class="card-block">
+                  <h4 class="card-title">Porte-Vélo </h4>
+                  <p class="card-text">Price: $1000</p>
+                  <a href="#" data-name="Porte-Vélo" data-price="1000" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+          <div class="col">
+              <div class="card" >
+              <img class="card-img-top" src="img/acc-vw/acc3.jpg" alt="Card image cap">
+              <div class="card-block">
+              <h4 class="card-title">Roues Blade De 17 Po</h4>
+              <p class="card-text">Price: $2025</p>
+              <a href="#" data-name="Roues-Blade-De-17-Po" data-price="2025" class="add-to-cart btn btn-primary">Add to cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <table class="show-cart table">
+        
+      </table>
+      <div>Total price: $<span class="total-cart"></span></div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Order now</button>
+    </div>
+  </div>
+</div>
+</div> 
+
+
+
+ 
+<div class="footer bg-dark fixed-bottom ">
+  <form style="margin-right: 50px" class="form-inline my-4 my-lg-2 float-right">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search by Car" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-4" type="submit">Search</button>
+  </form >
+  <a class="navbar-brand" href="#">
+      <img src="img/mercedes.svg" alt="" style="width: 50px; margin-left: 50px;">
+  </a>
+  <a class="navbar-brand" href="#">
+      <img src="img/bmw_logo.png" alt="" style="width: 50px; ">
+  </a>
+  <a class="navbar-brand" href="#">
+      <img src="img/vlogo.png" alt="" style="width: 50px; ">
+  </a>
+  <a class="navbar-brand" href="#">
+    <img src="img/tuning-style.png" alt="" style="width: 100px; ">
+</a>
+<a class="navbar-brand" href="#">
+  <img src="img/M-Logo.png" alt="" style="width: 100px; ">
+</a>
+</div>
+
+</body>
+<script src="doshop.js"></script> 
+</html>
